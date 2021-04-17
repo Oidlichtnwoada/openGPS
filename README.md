@@ -1,4 +1,4 @@
-# openGPS setup
+# openGPS Setup
 
 # Used Hardware
 1. two simpleRTK2B basic starter kits available [here](https://www.ardusimple.com/product/simplertk2b-basic-starter-kit-ip65/)
