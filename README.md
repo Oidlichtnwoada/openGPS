@@ -30,6 +30,14 @@
 7. execute the commands ```sudo apt update``` and ```sudo apt full-upgrade``` to install the latest packages on your **Raspberry Pi**
 8. execute the command ```sudo apt install rtklib``` to execute the required library on your **Raspberry Pi**
 9. fill in the password (PASSWD) and the mountpoint (MNTPNT) of the RTK2go NTRIP server in this [service file](base.service)
+10. use ```scp``` to copy the filled service file to the **Raspberry Pi** home directory as described [here](https://linuxize.com/post/how-to-use-scp-command-to-securely-transfer-files/)
+11. copy the service file from the home directory to the folder ```/etc/systemd/system/``` using the ```cp``` command
+12. execute the command ```sudo systemctl status base.service``` to start this service at the next boot up
+13. reboot the **Raspberry Pi** using the command ```sudo reboot```, you will have to reconnect to SSH again after the device has rebooted
+14. after reconnecting check that the command ```sudo systemctl status base.service``` returns the status active
+
+
+
 
 
 
