@@ -6,7 +6,8 @@
 3. one Raspberry Pi available [here](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/)
 4. one charger for the Raspberry Pi available [here](https://www.raspberrypi.org/products/type-c-power-supply/)
 5. one microSD card for the Raspberry Pi available [here](https://www.amazon.de/SanDisk-Ultra-Micro-Adapter-SDSQUNC-016G-GN6MA/dp/B010Q57SEE/)
-5. one Windows 10 device that meets the requirements presented [here](https://geizhals.at/?cat=nb&xf=10929_Windows+10%7E13345_LTE%7E13732_2%7E2379_15%7E83_Touchscreen%7E9_1920x1080)
+6. one device that meets the requirements presented [here](https://geizhals.at/?cat=nb&xf=10929_Windows+10%7E13345_LTE%7E13732_2%7E2379_15%7E83_Touchscreen%7E9_1920x1080)
+7. one Wi-Fi router with internet access near the Raspberry Pi
 
 ## simpleRTK2B Setup
 1. download the latest u-center software [here](https://www.u-blox.com/en/product/u-center)
