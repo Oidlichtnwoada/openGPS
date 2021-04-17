@@ -17,6 +17,9 @@
 4. apply the **Base**, and the **Rover 10Hz** configuration to each of the **simpleRTK2B** boards provided [here](https://www.ardusimple.com/configuration-files/)
 5. the **Base** configuration must be adjusted by setting the position of the **Base** station in the Configuration View (Ctrl+F9) under the point TMODE3 and saving it afterwards, a tutorial is provided [here](https://www.youtube.com/watch?v=FpkUXmM7mrc)
 
+## RTK2go Setup
+1. configure a mountpoint and a password for it on the RTK2go NTRIP server [here](http://www.rtk2go.com/new-reservation/), follow the instructions on the website and leave all settings to the default where possible
+
 ## Raspberry Pi Setup
 1. download the latest **Raspberry Pi OS** Lite image [here](https://www.raspberrypi.org/software/operating-systems/)
 2. download the latest **balenaEtcher** software [here](https://www.balena.io/etcher/)
@@ -25,6 +28,8 @@
 5. create a file named wpa_supplicant.conf in the same directory with the required information filled in, a template is provided [here](https://medium.com/coinmonks/run-raspberry-pi-in-a-true-headless-state-cfb3431667de)
 6. the previous link also provides a description how to connect to the **Raspberry Pi** via SSH, follow it and connect to the device
 7. execute the commands ```sudo apt update``` and ```sudo apt full-upgrade``` to install the latest packages on your **Raspberry Pi**
+8. execute the command ```sudo apt install rtklib``` to execute the required library on your **Raspberry Pi**
+
 
 
 

@@ -1,0 +1,11 @@
+[Unit]
+Description=Base Service
+After=network.target
+
+[Service]
+Type=idle
+ExecStart=/usr/bin/str2str -in serial://ttyACM0 -out ntrips://:{PASSWD}@www.rtk2go.com:2101/{MNTPNT}
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
