@@ -29,7 +29,7 @@
 6. the previous link also provides a description how to connect to the **Raspberry Pi** via SSH, follow it and connect to the device
 7. execute the commands ```sudo apt update``` and ```sudo apt full-upgrade``` to install the latest packages on your **Raspberry Pi**
 8. execute the command ```sudo apt install rtklib``` to execute the required library on your **Raspberry Pi**
-9. fill in the password (PASSWD) and the mountpoint (MNTPNT) in this [file](base.service)
+9. fill in the password (PASSWD) and the mountpoint (MNTPNT) in this [service file](base.service)
 
 
 
