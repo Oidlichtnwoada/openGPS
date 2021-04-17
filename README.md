@@ -1,6 +1,6 @@
 # openGPS Setup
 
-# Used Hardware
+## Used Hardware
 1. two **simpleRTK2B** basic starter kits available [here](https://www.ardusimple.com/product/simplertk2b-basic-starter-kit-ip65/)
 2. two USB cables available [here](https://www.amazon.de/AmazonBasics-Male-Micro-Cable-Black/dp/B07232M876/)
 3. one **Raspberry Pi** available [here](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/)
