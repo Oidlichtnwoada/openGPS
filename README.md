@@ -22,7 +22,7 @@
 4. create a file named ssh without any content using the command ```touch ssh``` in the root of the boot partition
 5. create a file named wpa_supplicant.conf in the same directory with the required information filled in, a template is provided [here](https://medium.com/coinmonks/run-raspberry-pi-in-a-true-headless-state-cfb3431667de)
 6. this link also provides a description how to connect to the Raspberry Pi via SSH, follow it
-7. execute the command ```sudo apt update``` and ```sudo apt full-upgrade``` to install the latest packages on your Raspberry Pi
+7. execute the commands ```sudo apt update``` and ```sudo apt full-upgrade``` to install the latest packages on your Raspberry Pi
 
 
 
