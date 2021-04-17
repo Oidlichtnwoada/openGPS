@@ -15,7 +15,7 @@
 2. download the latest firmware update [here](https://www.u-blox.com/en/product/zed-f9p-module#tab-documentation-resources)
 3. install the firmware update on both **simpleRTK2B** boards using the tutorial provided [here](https://www.ardusimple.com/zed-f9p-firmware-update-with-simplertk2b/)
 4. apply the **Base**, and the **Rover 10Hz** configuration to each of the **simpleRTK2B** boards provided [here](https://www.ardusimple.com/configuration-files/)
-5. the **Base** configuration must be adjusted by setting the position of the **Base** station in the Configuration View (Ctrl+F9) under the point TMODE3 and saving afterwards, a tutorial is provided [here](https://www.youtube.com/watch?v=FpkUXmM7mrc)
+5. the **Base** configuration must be adjusted by setting the position of the **Base** station in the Configuration View (Ctrl+F9) under the point TMODE3 and saving it afterwards, a tutorial is provided [here](https://www.youtube.com/watch?v=FpkUXmM7mrc)
 
 ## Raspberry Pi Setup
 1. download the latest **Raspberry Pi OS** Lite image [here](https://www.raspberrypi.org/software/operating-systems/)
