@@ -5,7 +5,7 @@ StartLimitIntervalSec=0
 
 [Service]
 Type=idle
-ExecStart=/usr/bin/str2str -in serial://ttyACM0 -out ntrips://:{PASSWD}@www.rtk2go.com:2101/{MNTPNT}
+ExecStart=/usr/bin/str2str -in serial://ttyACM0:38400:8:n:1:off -out ntrips://:{PASSWD}@www.rtk2go.com:2101/{MNTPNT}
 Restart=always
 RestartSec=1
 
