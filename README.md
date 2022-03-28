@@ -22,8 +22,8 @@
    update [here](https://www.u-blox.com/en/product/zed-f9p-module#tab-documentation-resources)
 3. install the firmware update on both **simpleRTK2B** boards using the tutorial
    provided [here](https://www.ardusimple.com/zed-f9p-firmware-update-with-simplertk2b/)
-4. apply the **Base**, and the **Rover 10Hz** configuration to each of the **simpleRTK2B** boards
-   provided [here](https://cerea-forum.de/filebase/index.php?file/18-ublox-f9p-config-file/)
+4. apply the **Base**, and the **Rover** configuration to each of the **simpleRTK2B** boards
+   provided [here](https://cerea-forum.de/filebase/index.php?file/66-f9p-config-f%C3%BCr-rover-und-base/)
 5. the **Base** configuration must be adjusted by setting the position of the **Base** station in the Configuration
    View (Ctrl+F9) under the point TMODE3 and saving it afterwards, a tutorial is
    provided [here](https://www.youtube.com/watch?v=FpkUXmM7mrc)
